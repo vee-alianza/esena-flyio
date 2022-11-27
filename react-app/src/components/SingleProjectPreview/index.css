@@ -1,0 +1,153 @@
+.page-container {
+  position: absolute;
+  left: 257px;
+  height: 100%;
+  width: calc(100% - 257px);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.project-page-header {
+  padding-left: 30px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: space-between;
+  padding-right: 40px;
+}
+
+.project-page-header-statuses {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  padding-top: 5px;
+}
+
+.project-page-header-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: fit-content;
+}
+
+.project-page-header-right {
+  position: relative;
+  margin-left: auto;
+
+}
+
+.project-page-header-left > h1 {
+  letter-spacing: -0.04em;
+}
+
+.project-page-header-left > p {
+  font-size: 15px;
+  font-weight: 600;
+  font-style: italic;
+  margin-left: 20px;
+  padding-top: 5px;
+}
+
+.single-project-view {
+  padding: 0px 40px;
+}
+
+.tabs {
+  display: flex;
+  width: 100%;
+  height: 30px;
+  align-items: center;
+  border-bottom: 1px solid rgb(184, 184, 184);
+}
+
+.tabs > p {
+  font-size: 13.5px;
+  margin-left: 13px;
+  color: rgb(101, 101, 101);
+}
+
+.tabs > p:hover {
+  cursor: pointer;
+  color: #9329c48f;
+}
+
+.tabs > p.tab-focused {
+  color: #5515768f;
+  font-weight: 600;
+}
+
+/* .tabs > p.tab-focused:hover {
+  color: purple;
+  border-bottom: 5px solid purple;
+} */
+
+.project-description.hide {
+  display: none;
+}
+
+.tasks-description.hide {
+  display: none;
+}
+
+.project-description {
+  margin-top: 30px;
+}
+.project-description > h3 {
+  font-weight: 500;
+  font-size: 18px;
+  color: rgb(164, 164, 164);
+}
+
+.project-description-box {
+  background-color: white;
+  width: 100%;
+  height: 120px;
+}
+
+.project-description-box > p {
+  font-size: 13px;
+  letter-spacing: 0.001em;
+  padding: 15px;
+  font-style: italic;
+}
+
+.progress-container {
+  height: 100px;
+  padding: 20px 0px;
+}
+
+.progress-bar > h3 {
+  font-weight: 500;
+  font-size: 18px;
+  color: rgb(164, 164, 164);
+}
+
+.progress-percent > h2 {
+  font-weight: 400;
+  font-size: 21px;
+  color: rgb(54, 54, 54);
+}
+
+.project-teammates {
+  height: 50px;
+  padding: 20px 0px;
+}
+
+.project-teammates > h3 {
+  font-weight: 500;
+  font-size: 18px;
+  color: rgb(164, 164, 164);
+}
+
+.teammate-container {
+  width: 100%;
+}
+
+.tasks-description {
+  margin-top: 10px;
+}
+.tasks-description > h3 {
+  font-weight: 500;
+  font-size: 18px;
+  color: rgb(164, 164, 164);
+}

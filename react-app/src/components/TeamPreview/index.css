@@ -1,0 +1,50 @@
+.person-circle-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: #932ec68f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-person {
+  width: 65px;
+  height: 65px;
+  border-radius: 100%;
+  background-color: #ae7ac78f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.person-circle-icon > p {
+  color: white;
+}
+
+.project-person > p {
+  color: black;
+  font-size: 20px;
+}
+
+.person {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.person-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.person-occupation {
+  font-size: 12px;
+  color: gray;
+  margin-top: 6px;
+}

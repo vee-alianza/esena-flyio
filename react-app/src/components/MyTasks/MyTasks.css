@@ -1,0 +1,21 @@
+.project-task-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.home-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.home-header > h1 {
+  letter-spacing: -0.05em;
+}
+
+.home-header > svg {
+  cursor: pointer;
+  margin-left: 10px;
+}

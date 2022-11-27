@@ -1,0 +1,11 @@
+.table-delete-btn {
+  background: white;
+  border: none;
+  color: rgb(125, 45, 54);
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.table-delete-btn:hover {
+  cursor: pointer;
+}

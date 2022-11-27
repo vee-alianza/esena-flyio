@@ -1,0 +1,12 @@
+.outer {
+  height: 8px;
+  width: 100%;
+  background: #f6ecfbff;
+  border-radius: 25px;
+  /* border: 1px solid black */
+}
+
+.inner {
+  background-color: #c58ae7ff;
+  height: 100%;
+}
