@@ -10,7 +10,7 @@
       <a href="https://github.com/xwnnie">Xiaowen Nie</a>
    </br>
    </br>
-   <a href="https://esena.herokuapp.com/">» Live Link «</a>
+   <a href="https://esena.fly.dev/">» Live Link «</a>
 </h5>
 <h4 align= "center" dir="auto">
   <a href="https://github.com/vee-alianza/Esena/wiki">» Explore the Wiki «</a>
